@@ -1,0 +1,114 @@
+<html>
+<head>
+<title></title>
+<style>
+.container {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+.one{
+    height: 180px;
+    width: 100px;
+    float: center
+}
+.box{
+    margin: 100px;
+    border-style: outset;
+    border-radius: 40px;
+}
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 35px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
+</head>
+<body>
+<div class="box" align="center">
+<div class="one" align="center">
+<div class="two"><h2>Pharmaceutical<span style="color:red">*</span> </div></h2>
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+ </div>
+</div>
+<div class="two"><h2>Location </div></h2>
+<div><textarea class="form-control" name="location"></textarea></div>
+<br>
+<div><input type="submit" name="submit" class="btn btn-primary" value="submit" style="cursor:pointer"></div>
+</div>
+       <!-- /.row -->
+</form>   
+
+        <div class="row">
+                             
+ 
+
+
+
+        </div>
+
+
+
+</div>
+</div>    
+  
+
+<div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; BloodBank Management System 2020</p>
+</div>
+
+</body>
+
+</html>
